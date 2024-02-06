@@ -1,0 +1,35 @@
+
+CREATE FILES
+==================
+
+touch filel            : to craete a file
+touch file{1..10)      : to create multiple files
+1s/11                  : to list files
+cat filel              : to show the content in file
+more filel             : to show the content in file
+cat››file1             : to insert content
+enter ctrl d           : to save and exit
+
+COPY FILE AND RENAME:
+==========================
+cp filel file2         : copies content form filel to file2
+cat filel ›› file2     : copies content form filel to file2 losing data 
+mv filel file2         : to rename file1 with file2
+
+REMOVE FILES:
+=======================
+rm file1               : to remove a file
+rm file2 -f rm         : to remove a file forcefully
+rm * ⁠-f                : to remove all files forcefully
+
+
+head file1             : to print top 10 lines
+head -5 file1          : to print top 5 lines
+head -12 file1         : to print top 12 lines
+tail file1             : to print bottom 10 lines
+
+FIND A FILE:
+================
+find / -name meminfo   : to find a particular file in linux
+
+
