@@ -24,3 +24,20 @@ dmesg                      : to show boot msgs
 yum install lshw -y        : yum (pkg manager) install(action) lshw(pkg)
 1shw                       : to show list of hardware components
 
+===================================================================================
+
+GENERAL COMMANDS:
+-----------------------
+top         : it briefs all the system working usage
+free        : shows the memory usage
+free -g     : shows the memory usage in gb
+free -m     : shows the memory usage in mb
+
+
+wc         : word count
+wc -w
+wc -l
+wc -c
+
+
+
