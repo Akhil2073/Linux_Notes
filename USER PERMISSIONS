@@ -1,0 +1,79 @@
+
+IN TOTAL WE HAVE 4 USERS
+----------------------------
+        a. ec2-user      : Default user
+        b. Root user     : Admin user who haves all permissions
+        c. Normal user   : Created or added user
+        d. Sudo user     : When permissions are given to a normal user
+===================================================================================
+
+USER PERMISSIONS:
+
+    PERMISSIONS         VALUES
+    -------------       --------
+       read                4
+       write               2
+       execute             1
+===================================================================================
+
+User default file permission value is : 644 (rw- r-- r--)
+
+when a new file is created the permissions by default will be - rw- r-- r--
+
+
+PERMISSIONS FORMAT:
+--------------------
+user group others
+rw-   r--   r--
+
+===================================================================================
+THERE ARE 2 METHODS TO MODIFY THE USER PERMISSIONS: we can edit or modify user file permissions
+
+         a. numerical method
+         b. alphabetical method
+
+a. numerical method:
+-------------------- chmod <values> <filename>
+eg: chmod 744 file1
+
+The above modifed permissions have now assigned the user to read,write and execute permissions and
+the groups and others permissions remains the same.
+modified the permissions of file1 to (rwx r-- r--)
+
+b. Alphabetical method:
+---------------------- chmod u=<permissions> g=<permissions> o=<permissions> <filename>
+eg: chmod u=rwx g=rw o=r file2
+
+modified permissions makes user to read,write and execute; groups to read and write; others to read.
+   {rwx rw- r-- fil2 permissions}
+
+===================================================================================
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
