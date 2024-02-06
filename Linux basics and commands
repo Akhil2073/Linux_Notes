@@ -1,0 +1,68 @@
+OPERATING SYSTEM ::  IT HELPS TO COMMUNICATE BETWEEN SYSTEM/MACHINE WITH THE USER
+WE HAVE 3 TYPES OF OS 
+                 -> LINUX
+                 -> WINDOWS
+                 -> MACOS 
+
+=======================    LINUX     ===========================
+LINUX IS A ONE OF THE OPERATING SYSTEM.
+------------------------------------------------------------
+ARCHITECTURE OF LINUX:
+
+        APPLICATION (request) => SHELL => KERNAL => HARDWARE
+
+       HARDWARE => KERNAL => SHELL (response) => APPLICATION
+
+
+WHERE WE USE LINUX: 
+===============================================
+1.⁠ ⁠ANDROID
+2.⁠ ⁠SUPER COMPUTERS
+3.⁠ ⁠SMART WATCHES/TV
+--------------------------------------------------
+COMPONENTS:
+===========================================
+KERNEL: DEALS WITH HARDWARE COMPONENTS (CPU, MEMORY) 
+DAEMON: DEALS WITH BACKGROUND PROCESS (BOOTING, KEYBOARD 
+SHELL: DEALS WITH USER INPUTS (COMMAND, SCRIPTS, PROGRAMMS)
+-----------------------------------------------------------
+FLAVOURS/DISTRIBUTIONS:
+======================================================
+IPHONE: 14, 14 PLUS, 14 MINI, 14 PRO, 14 PRO MAX LINUX: REDHAT, UBUNTU, CENTOS, FEDORA, OPEN SESU, LINUX MINT, ARCH, ROCKY, ALMA
+SERVER: LINUX-OS
+-------------------------------------------
+
+MODES: (WAYS WE WORK)
+1.⁠ ⁠GUI: GRAPHICAL USER INTERFACE
+2.⁠ ⁠CLI : COMMAND LINE INTERFACE
+by default user: ec2-user we need to work with: root user
+
+====================================================== ==============================
+SYSTEM COMMANDS:
+
+sudo -i         : to switch ec2-user to root
+uname           : to show os
+uname -a        : to show additinal info of os
+whoami          : to show current user
+logout (ctrl d) : to switch root to ec2-user
+clear (ctrl 1)  : to clear the screen
+who (w)         : to show who logins to system
+date            : to show date
+cal             : to show calender
+
+HARDWARE COMMNADS:
+cat /proc/cpuinfo(lscpu)   : shows cpu iformation
+cat /proc/meminfo (lsmem)  : shows memory information 
+cat /etc/os-release        : shows flavour of our os
+fdisk -1 (df -h)           : to show the volume (storage)information
+dmesg                      : to show boot msgs
+yum install lshw -y        : yum (pkg manager) install(action) lshw(pkg)
+1shw                       : to show list of hardware components
+
+
+ 
+
+
+
+
+
