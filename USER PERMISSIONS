@@ -48,6 +48,25 @@ modified permissions makes user to read,write and execute; groups to read and wr
    {rwx rw- r-- fil2 permissions}
 
 ===================================================================================
+USERS & GROUPS:
+1s /home           : to see folders for the users
+useradd ram        : to create user with the name ram
+passwd ram         : to give password
+id ram             : displays the user details of ram
+
+cat / etc/passwd   : to see list of users
+cat / etc/group    : to see list of groups
+cat /etc/shadow    : to see password
+
+groupadd devops    : to create a group with the name as devops
+
+usermod -a -G devops ram: to add ram user to devops group
+
+modify the permissions of the user as the root user to download the packages...
+visudo -› esc :100 -> yy -> p -> esc i -> ram(modify root to ram) -> esc :wq -> saves and quits
+
+
+
 
             
 
