@@ -1,0 +1,57 @@
+
+These are the commands which we use frequently in vim editor
+
+esc          : command mode
+esc i        : it converts the editor mode into insert mode
+esc :w       : saves the file
+esc :q       : quits the file
+esc :wq      : save and quit the file
+esc :q!      : to quit forcefully without saving
+
+===============  shortcut  commands  ===========================
+
+gg          : takes us to top of the file (line 1)
+G           : takes us to the bottom of the file (last line)
+I/M/zero    : brings us to the start of the line (anyone)
+A           : brings us to the end of the line 
+O           : creates a new line above existing line
+o           : creates a new line below the existing line
+
+/akhil      : searches for the word akhil
+
+:set nu     : sets the numbers to the file
+:set nonu   : removes the numbering to the file
+:20         : goes to 20th line
+10gg        : goes to the 10th line
+
+dd          : deletes a line
+10dd        : deletes 10 lines
+yy          : yanking(copies the line)
+10yy        : copies 10 lines
+p           : pastes the yanked/copied text
+x           : cut
+u           : undo
+ctrl r      : redo
+
+:%s/akhil/abhi/ : searches for the word akhil and replaces it with abhi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
