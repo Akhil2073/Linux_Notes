@@ -26,6 +26,27 @@ yum install lshw -y        : yum (pkg manager) install(action) lshw(pkg)
 
 ===================================================================================
 
+NETWORK COMMANDS:
+--------------------
+ping <application>        : packet internet grouper
+telnet <appname> portno.  : 
+netstat -an               :
+ifconfig                  : 
+cksum <filename>          :
+runlevel
+         runlevel 0 : to stop                {init 0}
+         runlevel 1 : single user mode       {init 1}
+         runlevel 2 : multiple user mode     {init 2}
+         runlevel 3 : multiple user with network   {init 3}
+         runlevel 4 : reserved (unused)        {init 4}
+         runlevel 5 : gui/cli mode             {init 5}
+         runlevel 6 : reboot                   {init 6}
+
+finger <filename>
+
+
+================================================================================================
+
 GENERAL COMMANDS:
 -----------------------
 top         : it briefs all the system working usage
