@@ -1,3 +1,10 @@
+TYPES OF FILES:
+================
+- : regular files
+b : blocked files
+c : character files
+d : directories
+l : linked files
 
 CREATE FILES
 ==================
