@@ -1,0 +1,16 @@
+FOLDERS/DIRECTORIES:
+
+pwd              : present working directory
+mkdir dir1       : to create a folder named dir1
+cd dir1          : to go inside dir1 folder
+
+cd ../           : to come a folder back
+cd ../../        : to come a folder back
+cd -             : to go back previous folder
+
+rm dir1          : to remova a folder name dir1
+rm -rf dir1      : to remove a folder recursively and forcefuly
+
+mkdir -p dir1/dir11/dir111 : to create a nested directory
+cp file1 dir1           : to copy file1 to directory1
+mv file1 dir1           : to move a file1 to directory1
