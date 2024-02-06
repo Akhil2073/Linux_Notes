@@ -1,0 +1,36 @@
+hostname               : to show the hostname
+hostname -i            : shows the hostname with additional information like ip address
+hostnamectl set-hostname <newhostname>  : modifies the hostname
+
+================================================================================================
+
+wget <link> : this helps to download a software from websites/online
+
+unzip <downloaded file name>   : unzips the zipped folder
+zip <new name> <unzipped folder> : zips the unzipped folder
+
+tar -xvf <downloaded file>         : it extracts the tar file
+tar -cvf <new file name> <downloaded file> : creates or tars(just like zip) the file
+================================================================================================
+
+ps          : shows the processes
+ps -ef      : shows the process id's
+ps -ef | grep tomcat  : searches and shows the process id of tomcat
+
+kill -9 pid           : kills the process
+systemctl stop jenkins : kills the jenkins process
+
+================================================================================================
+
+lsblk       : listblock
+
+
+
+
+
+
+
+
+
+
+
