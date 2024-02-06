@@ -20,8 +20,10 @@ enter ctrl d           : to save and exit
 COPY FILE AND RENAME:
 ==========================
 cp filel file2         : copies content form filel to file2
+cp -rp filel file2     : copies content form filel(source file) to file2 (destination file)
 cat filel ›› file2     : copies content form filel to file2 losing data 
-mv filel file2         : to rename file1 with file2
+mv file1 file2         : to cut file1 and pastes file2
+mv filel file2         : to rename file1(old name) with file2(new name)
 
 REMOVE FILES:
 =======================
