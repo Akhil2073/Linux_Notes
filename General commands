@@ -24,7 +24,18 @@ systemctl stop jenkins : kills the jenkins process
 
 lsblk       : listblock
 
+whereis <filename>   : shows the pwd of the file name
+which <filename>
+whatis <command name> : briefs the command(like help)
 
+diff <f1> <f2>  : shows the differences between files
+sdiff <f1> <f2> : shows the differences side by side
+df
+df -Th
+df -Tm
+df -m
+du -sh 
+du -h 
 
 
 
