@@ -1,0 +1,26 @@
+
+
+SYSTEM COMMANDS:
+--------------------
+sudo -i         : to switch ec2-user to root
+uname           : to show os
+uname -a        : to show additinal info of os
+whoami          : to show current user
+logout (ctrl d) : to switch root to ec2-user
+clear (ctrl 1)  : to clear the screen
+who (w)         : to show who logins to system
+date            : to show date
+cal             : to show calender
+
+===================================================================================
+
+HARDWARE COMMNADS:
+-------------------------
+cat /proc/cpuinfo(lscpu)   : shows cpu iformation
+cat /proc/meminfo (lsmem)  : shows memory information 
+cat /etc/os-release        : shows flavour of our os
+fdisk -1 (df -h)           : to show the volume (storage)information
+dmesg                      : to show boot msgs
+yum install lshw -y        : yum (pkg manager) install(action) lshw(pkg)
+1shw                       : to show list of hardware components
+
