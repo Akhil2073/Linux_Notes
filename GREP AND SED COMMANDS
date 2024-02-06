@@ -1,0 +1,37 @@
+
+GREP: it is used to search for a word outside the vim editor
+Global Regular Experssion Print
+
+grep akhil file1  R  : to search for word akhil in file1 (try with R abd wuthout R)
+grep AKHIL filel -i R  : to search for word akhil in filel (-i: avoids casesensitive)
+
+
+grep 'raham\|linux' file: to search for multiple words
+grep 'raham\|linux\|topic file1 : to search for multiple words
+grep -e'akhil' -e'abhi' file1   : searches for the words in the file 
+
+grep akhil filel -c : shows how many times the word akhil is present in the file
+grep akhil filel -v : prints the lines without the word akhil
+
+cat /proc/meminfo : shows the content in the meminfo
+cat /proc/meminfo|grep free -i : shows the info for the word free only in the entire content
+cat /proc/cpuinfo|grep cores -i : shows the info for the word cores only in the entire content
+
+=========================================================================================================
+
+
+SED command
+------------
+sed : this helps to replace words 
+(Stream Editor)
+
+sed 's/akhil/ram/' file1             : replaces the word ram by akhil in the file1, it just prints
+sed :%s/akhil/ram/                 : to replace a word inside the vim editor and saves
+sed 's/akhil/ram/' file1 >> file2    : replaces the word ram by akhil in the file1 and saves in the file2
+
+sed 's/akhil/ram/;s/linux/unix/' filel : to replace multiple words 
+sed '2c hai' filel         : to replace 2nd line with the line as hai
+
+
+
+ 
